@@ -1,15 +1,10 @@
 import 'package:intl/intl.dart';
-import 'package:timeago/timeago.dart' as timeago;
 
 import 'string_extensions.dart';
 
 extension DateOnlyCompare on DateTime {
   bool isSameDate(DateTime other) {
     return year == other.year && month == other.month && day == other.day;
-  }
-
-  String get timeAgo {
-    return timeago.format(this);
   }
 
   bool get isToday {
@@ -22,16 +17,6 @@ extension DateOnlyCompare on DateTime {
     return yesterday.day == day &&
         yesterday.month == month &&
         yesterday.year == year;
-  }
-
-  String get toPerfectDuration {
-    if (isToday) {
-      return 'Today';
-    } else if (isYesterday) {
-      return 'Yesterday';
-    } else {
-      return timeAgo;
-    }
   }
 
   String formatDate([String format = 'dd-MM-yyyy']) {
