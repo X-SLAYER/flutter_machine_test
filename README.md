@@ -1,5 +1,19 @@
 # Flutter Machine Test - Dynamic Form Application
 
+## 🚀 How to Run
+
+### Option 1: VS Code (Recommended)
+This project includes pre-configured launch settings.
+1. Open the project in **VS Code**.
+2. Go to the **Run and Debug** tab.
+3. Select the desired flavor from the dropdown menu and press **Play**.
+
+### Option 2: Terminal Commands
+
+**Run in Debug Mode:**
+```bash
+flutter run --flavor dev --target lib/main_dev.dart
+```
 ### Dynamic Form Generation
 - Fully auto-generated forms from API responses
 - field rendering based on JSON configuration
