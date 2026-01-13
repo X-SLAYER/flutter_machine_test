@@ -1,0 +1,62 @@
+{
+  "app_name": "لوحة المرجل القاتل:",
+  "employee_requests": "طلبات الموظفين",
+  "welcome_back": "مرحبًا بعودتك",
+  "manage_your_requests": "إدارة طلباتك بكفاءة",
+  "request_forms": "نماذج الطلبات",
+  "RequestFormsType": {
+    "leave": "طلب الإجازة",
+    "loan": "طلب القرض",
+    "certificate": "طلب الشهادة",
+    "invoice": "طلب الفاتورة"
+  },
+  "RequestFormsTypeDescription": {
+    "leave": "التقدم بطلب للحصول على إجازة سنوية أو إجازة مرضية وما إلى ذلك.",
+    "loan": "طلب قرض من الشركة.",
+    "certificate": "طلب شهادة من الشركة.",
+    "invoice": "طلب الفاتورة من الشركة."
+  },
+  "coming_soon": "قريباً",
+  "DrawerItems": {
+    "userDashboard": "بيت",
+    "myRequests": "طلباتي",
+    "settings": "إعدادات"
+  },
+  "feature_coming_soon": "{{feature}} قريبًا",
+  "leave_request": "طلب الإجازة",
+  "send_request": "إرسال الطلب",
+  "select_date": "حدد التاريخ",
+  "request_sent_successfully": "تم إرسال الطلب بنجاح",
+  "employee_id": "معرف الموظف: {{id}}",
+  "software_engineer": "مهندس البرمجيات",
+  "preferences": "التفضيلات",
+  "language": "لغة",
+  "app_theme": "موضوع التطبيق",
+  "LanguageTypes": { "arabic": "عربي", "english": "إنجليزي" },
+  "ThemeStyle": { "light": "ضوء", "dark": "مظلم" },
+  "select_language": "اختر اللغة",
+  "select_theme": "اختر الموضوع",
+  "my_requests": "طلباتي",
+  "no_requests": "لا يوجد طلبات",
+  "days": {
+    "one": "{{count}} يوم",
+    "other": "{{count}} يوم"
+  },
+  "RequestStatus": {
+    "pending": "قيد المراجعة",
+    "approved": "موافق عليه",
+    "rejected": "مرفوض"
+  },
+  "tap_to_view_details": "اضغط لعرض التفاصيل",
+  "request_details": "تفاصيل الطلب",
+  "leave_information": "معلومات الإجازة",
+  "full_summary_description": "ملخص كامل لطلب الإجازة",
+  "start_date": "تاريخ البدء",
+  "end_date": "تاريخ النهاية",
+  "duration": "المدة",
+  "delegate_during_leave": "مندوب أثناء الإجازة",
+  "notes": "الملاحظات",
+  "no_notes": "لا يوجد ملاحظات",
+  "approve_request": "موافقة على الطلب",
+  "reject_request": "رفض الطلب"
+}

@@ -1,0 +1,68 @@
+{
+  "app_name": "SLAYER BoilerPlate:",
+  "employee_requests": "Employee Requests",
+  "welcome_back": "Welcome back",
+  "manage_your_requests": "Manage your requests efficiently",
+  "request_forms": "Request Forms",
+  "RequestFormsType": {
+    "leave": "Leave Request",
+    "loan": "Loan Request",
+    "certificate": "Certificate Request",
+    "invoice": "Invoice Request"
+  },
+  "RequestFormsTypeDescription": {
+    "leave": "Apply for annual leave, sick leave, etc.",
+    "loan": "Request for a loan from the company.",
+    "certificate": "Request for a certificate from the company.",
+    "invoice": "Request for a invoice from the company."
+  },
+  "coming_soon": "Coming Soon",
+  "DrawerItems": {
+    "userDashboard": "Home",
+    "myRequests": "My Requests",
+    "settings": "Settings"
+  },
+  "feature_coming_soon": "{{feature}} is coming soon",
+  "leave_request": "Leave Request",
+  "send_request": "Send Request",
+  "select_date": "Select Date",
+  "request_sent_successfully": "Request sent successfully",
+  "employee_id": "Employee ID: {{id}}",
+  "software_engineer": "Software Engineer",
+  "preferences": "Preferences",
+  "language": "Language",
+  "app_theme": "App Theme",
+  "LanguageTypes": {
+    "arabic": "Arabic",
+    "english": "English"
+  },
+  "ThemeStyle": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "select_language": "Select Language",
+  "select_theme": "Select Theme",
+  "my_requests": "My Requests",
+  "no_requests": "No requests found",
+  "days":  {
+    "one": "{{count}} day",
+    "other": "{{count}} days"
+  },
+  "RequestStatus": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "tap_to_view_details": "Tap to view details",
+  "request_details": "Request Details",
+  "leave_information": "Leave Information",
+  "full_summary_description": "Full summary of the leave request",
+  "start_date": "Start Date",
+  "end_date": "End Date",
+  "duration": "Duration",
+  "delegate_during_leave": "Delegate During Leave",
+  "notes": "Notes",
+  "no_notes": "No notes",
+  "approve_request": "Approve Request",
+  "reject_request": "Reject Request"
+}

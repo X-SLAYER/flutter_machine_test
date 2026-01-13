@@ -1,0 +1,8 @@
+{
+  "app_name": "Flutter",
+  "buildflavor": {
+    "production": "Production",
+    "staging": "Staging",
+    "development": "Development"
+  }
+}

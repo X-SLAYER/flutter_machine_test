@@ -1,0 +1,80 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  // flutter build -t lib/main_dev.dart
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(debug mode) dev",
+      "program": "lib/main_dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "(profile mode) dev",
+      "program": "lib/main_dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "(release mode) dev",
+      "program": "lib/main_dev.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--flavor", "dev"]
+    },
+    // -------------------------
+    {
+      "name": "(debug mode) staging",
+      "program": "lib/main_staging.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--flavor", "staging"]
+    },
+    {
+      "name": "(profile mode) staging",
+      "program": "lib/main_staging.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--flavor", "staging"]
+    },
+    {
+      "name": "(release mode) staging",
+      "program": "lib/main_staging.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--flavor", "staging"]
+    },
+    // -------------------------
+    {
+      "name": "(debug mode) prod",
+      "program": "lib/main_prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "(profile mode) prod",
+      "program": "lib/main_prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "(release mode) prod",
+      "program": "lib/main_prod.dart",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": ["--flavor", "prod"]
+    }
+  ]
+}
